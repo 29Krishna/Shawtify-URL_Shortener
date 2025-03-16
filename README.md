@@ -1,4 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shawtify - URL Shortener
+
+A modern URL shortening service built with Next.js that allows users to create shortened, easy-to-share links.
+
+## Developer Information
+
+- **Name:** Krishna
+- **Email:** krishnagupta2380@gmail.com
+
+## Project Overview
+
+Shawtify is a URL shortening service that helps users convert long URLs into shorter, more manageable links. Built with modern web technologies, it provides a clean and intuitive interface for URL management.
+
+## Tech Stack
+
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+- MongoDB (for URL storage)
+- Next Auth (for authentication)
 
 ## Getting Started
 
@@ -10,27 +30,36 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- URL shortening with custom aliases
+- User authentication
+- Dashboard to manage shortened URLs
+- Analytics for link clicks
+- Modern, responsive design
+- Copy to clipboard functionality
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [MongoDB](https://docs.mongodb.com/)
+- [Next Auth](https://next-auth.js.org/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+The project is deployable on Vercel or any other hosting platform that supports Next.js applications.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to contribute to this project by creating issues or submitting pull requests.
+
+## License
+
+This project is open source and available under the MIT License.
